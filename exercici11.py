@@ -21,5 +21,6 @@ def main():
     print("Mitjana suspesos: ", total_suspended/suspended)
     print("Total suspesos: ", suspended)
 
+
 if __name__ == '__main__':
         main()
