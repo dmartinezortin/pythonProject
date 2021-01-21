@@ -15,5 +15,6 @@ def main():
     #Printa parells i imparells
     print(pair_list[:])
     print(odd_list[:])
+
 if __name__ == '__main__':
         main()
