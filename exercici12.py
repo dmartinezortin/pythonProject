@@ -9,12 +9,12 @@ def main():
             main_list.insert(x, int(input("Introdueix un numero dins del rang! (0-10): ")))
 
     #Separa els parells dels imparells
-    pair_list = [x for x in range(10) if main_list[x] % 2 == 0]
-    odd_list = [x for x in range(10) if main_list[x] % 2 != 0]
+    pair_list = [x for x in main_list if x % 2 == 0]
+    odd_list = [x for x in main_list if x % 2 != 0]
 
     #Printa parells i imparells
-    print(pair_list[:])
-    print(odd_list[:])
+    print(pair_list)
+    print(odd_list)
 
 if __name__ == '__main__':
         main()
