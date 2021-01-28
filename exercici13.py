@@ -11,5 +11,6 @@ def main():
     int(value2)
     #Printar valors
     print("Valor 1: " + value1 + " Valor2: " + value2)
+
 if __name__ == '__main__':
         main()
