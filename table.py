@@ -21,10 +21,10 @@ def main():
         }
         main_dict.update(aux_dict)
     print(main_dict)
-    print("Aula", "Nom aula", "IP", "Numero PCs", sep = "  -  ")
+    print("Aula\t", "Nom aula\t", "IP\t", "Numero PCs\t")
     for key, value in main_dict.items():
-        print(key, '--')
+        print("\n")
         for x, y in value.items():
-            print(x, ' : ', y)
+            print(y, "\t\t", end='')
 if __name__ == '__main__':
         main()
