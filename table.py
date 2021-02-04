@@ -12,19 +12,14 @@ def main():
             num_pc = int(input("Quin es el numero de PCs? "))
             if num_pc >= 1 and num_pc <= 20:
                 break
-        aux_dict = {x : {
-        'Aula': num_aula,
-        'Nom aula': name_aula,
-        'IP': ip,
-        'Numero PCs': num_pc
-            }
-        }
+        aux_dict = {x : {'Aula': num_aula,'Nom aula': name_aula,'IP': ip,'Numero PCs': num_pc } }
         main_dict.update(aux_dict)
-    print(main_dict)
-    print("Aula\t", "Nom aula\t", "IP\t", "Numero PCs\t")
+        print(main_dict)
+
+    print("Aula\t", "Nom aula\t", "IP\t\t\t", "Numero PCs")
     for key, value in main_dict.items():
-        print("\n")
         for x, y in value.items():
             print(y, "\t\t", end='')
+        print()
 if __name__ == '__main__':
         main()
