@@ -6,7 +6,6 @@ def main():
         #introdueix els valors a la llista
         main_list.append(int(input("Introdueix un numero: ")))
     #Suma i printa
-    total = sum(main_list)
-    print(total)
+    print(sum(main_list))
 if __name__ == '__main__':
         main()
